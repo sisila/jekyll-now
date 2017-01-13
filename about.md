@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Just another full stack developer live in Sri Lanka!
 
 ### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Please visit my linked in Profile [lk.linkedin.com/in/sisila](https://lk.linkedin.com/in/sisila)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Email : [sisilacst@gmail.com](mailto:sisilacst@gmail.com)
+
+Telephone : [+94719497040](tel:0094719497040)
