@@ -1,10 +1,14 @@
 ---
 layout: post
-title: You're up and running!
+title: Load data into mysql using csv file (mysqlimport)
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+if you have csv file containing data match with particular mysql table then you can load these data into mysql table using following comand
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+{% highlight bash %} mysqlimport --local  --fields-terminated-by=, -u root  -p DatabaseName  /path/and/table_name.csv {% endhighlight %}
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+example {% highlight bash %} mysqlimport --local  --fields-terminated-by=, -u root  -p PRBT  /home/sisila/rbt/scheduled_contents.csv {% endhighlight %}
+
+
+
+Please refer following refrence for more information [Mysql refrence](http://dev.mysql.com/doc/refman/5.7/en/mysqlimport.html).
